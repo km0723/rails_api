@@ -61,7 +61,7 @@ class TestsController < ApplicationController
       #NG
       msgpack = {
         "guid" => "707c08f4874a7006b5d502f30fac1a53a434b531d66cb5eaabb3dc605fbbf875",
-        "ymd" => Time.now.to_s,
+        "ymd" => Time.now.to_i,
         "content_code" => "test20201209gendai_20201121",
         "page_no" => 1,
         "views" => 1,
